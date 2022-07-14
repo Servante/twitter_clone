@@ -9,5 +9,5 @@ has_person_name
          :recoverable, :rememberable, :validatable
   has_many :tweets
 
-  validates_uniqueness of :username
+  validates_uniqueness_of :username
 end
