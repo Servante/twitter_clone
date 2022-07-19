@@ -1,5 +1,13 @@
-<div class="p-6">
-  <div><%= tweet.body %></div>
-  <%= tweet.user.name %>
+<div class="px-6 py-3">
+  <div class="flex space-x-3 items-start pb-3">
+    <%= profile_image(tweet.user) %>
+  </div>
+  <div class="flex-1">
+    <p class="font-bold"><%= link_to tweet.user.name, profile_path(tweet.user), class: "hover:underline", data: { turbo: false } %>
+  </div>
+  <div class="prose prose-lg"><%= tweet.body %></div>  
+
 </div>
+
+
 
