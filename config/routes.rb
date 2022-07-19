@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   resources :tweets, except: [:edit, :update]
   resources :profiles
+  resources :likes, only: :create
 
 
   devise_for :users
