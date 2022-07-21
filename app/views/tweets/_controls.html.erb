@@ -9,11 +9,7 @@
       <% end %>
     <% end %>
   </li>
-  <% if user_signed_in? && tweet.user_id != current_user.id %>
-    <li>
-      
-    </li>
-  <% end %>
+  
   <li>
     <%= content_tag :div, class: "#{dom_id(tweet)}_likes" do %>
       <%= render "likes/likes", likeable: tweet %>
@@ -28,4 +24,3 @@
       <% end %>
     </li>
   <% end %>
-</ul>
