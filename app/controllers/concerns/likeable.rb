@@ -1,8 +1,8 @@
-module likeable
+module Likeable
   extend ActiveSupport::Concern
 
   included do
-    has_man :likes, as :likeable
+    has_many :likes, as: :likeable
   end
 
   def liked_by?(user)

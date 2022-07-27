@@ -18,8 +18,7 @@
         <span class="group-hover:text-green-500 text-gray-500"><%= Tweet.where(tweet_id: tweet).count %></span>
       <% end %>
     </li>
-  <% end %>
-  
+  <% end %>  
   <li>
     <%= content_tag :div, class: "#{dom_id(tweet)}_likes" do %>
       <%= render "likes/likes", likeable: tweet %>
