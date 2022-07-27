@@ -19,7 +19,7 @@ class CommentsController < ApplicationController
 
       respond_to do |format|
         format.turbo_stream
-        format.html { redirect_to tweet_path()@tweet), notice: "Comment was deleted"}
+        format.html { redirect_to tweet_path(@tweet), notice: "Comment was deleted" }
       end
     end
 
