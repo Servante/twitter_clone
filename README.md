@@ -1,24 +1,39 @@
-# README
+# twitter_clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A basic twitter clone built in rails.
 
-Things you may want to cover:
+User will be able to:
 
-* Ruby version
+* create an account and sign up/sign in
 
-* System dependencies
+* post tweets
 
-* Configuration
+* read, like and retweet tweets
 
-* Database creation
+* leave comments on tweets
 
-* Database initialization
+* delete their own tweets
 
-* How to run the test suite
+* upload profile pic 
 
-* Services (job queues, cache servers, search engines, etc.)
+----------------------------------------
 
-* Deployment instructions
+Created with:
 
-* ...
+* Ruby 3.1.2
+
+* Rails 7.0.3
+
+* Database: Postgresql 
+
+* Tailwind CSS
+
+
+Gems:
+
+* devise
+
+* sidekiq
+
+* cssbundling
+
