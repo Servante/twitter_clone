@@ -1,6 +1,6 @@
 # twitter_clone
 
-A basic twitter clone built in rails.
+A basic twitter clone built with rails.
 
 User will be able to:
 
